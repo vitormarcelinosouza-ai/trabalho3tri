@@ -7,10 +7,21 @@ int main() {
      scanf ("%d",&numero);
      if(numero%2==0){
                
-         printf(" seu numero é par\n");
+         printf(" Seu numero é par\n");
             }
             else{
                
-                printf(" seu numero é impar\n");
+                printf(" Seu numero é impar\n");
             }
+            if(numero > 0){
+                printf("\n O número é POSITIVO. \n", numero);
+            }
+            else if(numero < 0){
+                printf(" \nO número é NEGATIVO. \n", numero);
+            }
+            else{
+            printf("\n O número é igual à zero. \n", numero);
+            }
+            return 0;
 }  
+
